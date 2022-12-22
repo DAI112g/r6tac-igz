@@ -22,19 +22,19 @@ canvas.addEventListener('mouseup', function() {
 var color = 'white';
 function color_set(cnum){
   if (cnum == 0){
-    color = 'black';
+    var color = 'white';
   }
   elseif (cnum == 1){
-    color = 'white';
+    var color = 'black';
   }
   elseif (cnum == 2){
-    color = 'red';
+    var color = 'red';
   }
   elseif (cnum == 3){
-    color = 'blue';
+    var color = 'blue';
   }
   elseif (cnum == 4){
-    color = 'yellow';
+    var color = 'yellow';
   }
 }
 // 描画の処理
