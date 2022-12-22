@@ -930,9 +930,18 @@
     </div>
     <canvas id="canvas" width="1600" height="900"></canvas><br>
     <div class="palette">
+    <div class="card-body border rounded" id="color-picker-area">
+      <h5 class="card-title">色</h5>
+        <div class="rounded" style="background-color: whitesmoke;">
+          <md-color-picker id="colorPicker" color-margin="4" colors-per-row="7" color-size="25"
+            default-tint="500" fixedMinHeight="true" palette="material-full" use-spectrum-picker="false"
+            value="#000000">
+          </md-color-picker>
+        </div>
+    </div>
 	<font size=2px;>
-      <label>색상<input id="color" type="color"></label>
-      <label>굵기<input id="width" type="number" min="1" max="30"></label>
+      <label>色<input id="color" type="color"></label>
+      <label>太さ<input id="width" type="number" min="1" max="30"></label>
       <input type="button" class="btn" id="reset_icon" value="아이콘 지우기" onclick="reset_icon()">
       <input type="button" class="btn" id="delete_canvas" value="낙서 지우기" onclick="delete_canvas()">
       <input type="button" class="btn" id="all_reset" value="전부 지우기" onclick="all_reset()">
