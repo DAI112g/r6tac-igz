@@ -1,14 +1,22 @@
 body {
   background: black;
 }
+/* アイコンすべてに適応 */
+.drag-and-drop {
+  cursor: move;
+  position: absolute;
+  z-index: 10;
+}
+/*選手スロット*/
 .number_slot{
   position: absolute;
-  top: 60px;
+  top: 200px;
   left: 1565px;
   border: 0.1rem solid white;
   height: 95px;
   width: 245px;
 }
+/*スロットタイトル*/
 .number_slot_title{
   color: white;
   text-align: center;
@@ -16,6 +24,7 @@ body {
   position: absolute;
   top: 10px;
 }
+/*番号の並び*/
 .numbers {
   font-size: 24px;
   height: 30px;
@@ -86,12 +95,7 @@ body {
   margin-left: 20px;
   float: left;
 }
-/* アイコンすべてに適応 */
-.drag-and-drop {
-  cursor: move;
-  position: absolute;
-  z-index: 10;
-}
+
 /* オペレーターアイコンすべてに適応 */
 .icon {
   width: 30px;
