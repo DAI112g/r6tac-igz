@@ -6,22 +6,22 @@ var before_y = 0;
 var canvas = document.getElementById('canvas');
 var ctx = canvas.getContext('2d');
 //ボタンから色の情報ゲット
-var color = 'white';
+var linecolor = 'white';
 function color_set(cnum){
   if (cnum == 0){
-    var color = 'white';
+    var linecolor = 'white';
   }
   elseif (cnum == 1){
-    var color = 'black';
+    var linecolor = 'black';
   }
   elseif (cnum == 2){
-    var color = 'red';
+    var linecolor = 'red';
   }
   elseif (cnum == 3){
-    var color = 'blue';
+    var linecolor = 'blue';
   }
   elseif (cnum == 4){
-    var color = 'yellow';
+    var linecolor = 'yellow';
   }
 }
 canvas.addEventListener('mousemove', draw_canvas);
@@ -49,7 +49,7 @@ var w = document.getElementById('width').value;
 
 // 描画
 ctx.lineCap = 'round';
-ctx.strokeStyle = 'color';
+ctx.strokeStyle = 'linecolor';
 ctx.lineWidth = 3;
 ctx.beginPath();
 ctx.moveTo(before_x, before_y);
