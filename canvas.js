@@ -36,7 +36,7 @@ var b  = parseInt(color.substring(5,7), 16);
 // 描画
 ctx.lineCap = 'round';
 ctx.strokeStyle = 'rgb('+ r + ',' + g + ',' + b + ')';
-ctx.lineWidth = w;
+ctx.lineWidth = 3;
 ctx.beginPath();
 ctx.moveTo(before_x, before_y);
 ctx.lineTo(x, y);
@@ -50,7 +50,7 @@ before_y = y;
 // クリアボタンクリック時
 // クリアボタンクリックした時にアラートを表示
 function delete_canvas(){
-ret = confirm('낙서를 모두 지우겠습니까?');
+ret = confirm('描画内容を削除します');
 // アラートで「OK」を選んだ時
 if (ret == true){
   ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -68,7 +68,7 @@ if (btnNum == 1){
   pen.className = 'active';
   era.className = '';
 }
-// クリックされボタンが消しゴムだったら
+// クリックされたボタンが消しゴムだったら
 else if (btnNum == 2){
   ctx.globalCompositeOperation = 'destination-out';
   pen.className = '';
