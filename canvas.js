@@ -18,6 +18,25 @@ canvas.addEventListener('mousedown', function(e) {
 canvas.addEventListener('mouseup', function() {
   drawing = false;
 });
+//ボタンから色の情報ゲット
+var color = 'black';
+function color_set(cnum){
+  if (cnum == 0){
+    color = 'black';
+  }
+  elseif (cnum == 1){
+    color = 'white';
+  }
+  elseif (cnum == 2){
+    color = 'red';
+  }
+  elseif (cnum == 3){
+    color = 'blue';
+  }
+  elseif (cnum == 4){
+    color = 'yellow';
+  }
+}
 
 // 描画の処理
 function draw_canvas(e) {
@@ -29,13 +48,10 @@ var rect = e.target.getBoundingClientRect();
 var x = e.clientX - rect.left;
 var y = e.clientY - rect.top;
 var w = document.getElementById('width').value;
-var color = document.getElementById('color').value;
-var r   = parseInt(color.substring(1,3), 16);
-var g = parseInt(color.substring(3,5), 16);
-var b  = parseInt(color.substring(5,7), 16);
+
 // 描画
 ctx.lineCap = 'round';
-ctx.strokeStyle = 'rgb('+ r + ',' + g + ',' + b + ')';
+ctx.strokeStyle = 'color';
 ctx.lineWidth = 3;
 ctx.beginPath();
 ctx.moveTo(before_x, before_y);
