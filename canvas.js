@@ -6,7 +6,7 @@ var before_y = 0;
 var canvas = document.getElementById('canvas');
 var ctx = canvas.getContext('2d');
 //ボタンから色の情報ゲット
-var linecolor = 'white';
+var linecolor = "rgb(0, 0, 255)";
 function color_set(cnum){
   if (cnum == 0){
     var linecolor = 'white';
@@ -49,8 +49,7 @@ var w = document.getElementById('width').value;
 
 // 描画
 ctx.lineCap = 'round';
-var color = linecolor.value;
-ctx.strokeStyle = color;
+ctx.strokeStyle = linecolor;
 ctx.lineWidth = 3;
 ctx.beginPath();
 ctx.moveTo(before_x, before_y);
