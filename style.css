@@ -12,6 +12,7 @@ body {
 .number_slot_title{
   color: white;
   text-align: center;
+  display: inline-block;
   position: absolute;
   top: 10px;
 }
