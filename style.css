@@ -7,11 +7,17 @@ body {
   position: absolute;
   z-index: 10;
 }
+/* オペレーターアイコンすべてに適応 */
+.icon {
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+}
 /*選手スロット*/
 .number_slot{
   position: absolute;
-  top: 200px;
-  left: 1565px;
+  margin-top: 200px;
+  margin-left: 1565px;
   border: 0.1rem solid white;
   height: 95px;
   width: 245px;
@@ -95,18 +101,8 @@ body {
   margin-left: 20px;
   float: left;
 }
-
-/* オペレーターアイコンすべてに適応 */
-.icon {
-  width: 30px;
-  height: 30px;
-  border: 1px solid rgba(255, 255, 255, 0.7);
-}
+/*ガジェット系のCSS*/
 .gadget {
-  width: 25px;
-  height: 25px;
-}
-.gadget1 {
   width: 20px;
   height: 20px;
 }
@@ -115,6 +111,14 @@ body {
   height: 30px;
 }
 /* 攻撃側ガジェット位置決め */
+.attack_gadget{
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 20px;
+  border: 0.1rem solid white;
+  width: 730px;
+  height: 111px;
+}
 .drone_slot {
   width: 70px;
   height: 90px;
