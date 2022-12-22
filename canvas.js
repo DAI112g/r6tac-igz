@@ -5,19 +5,6 @@ var before_y = 0;
 
 var canvas = document.getElementById('canvas');
 var ctx = canvas.getContext('2d');
-
-canvas.addEventListener('mousemove', draw_canvas);
-// マウスをクリックしてる時
-canvas.addEventListener('mousedown', function(e) {
-  drawing = true;
-  var rect = e.target.getBoundingClientRect();
-  before_x = e.clientX - rect.left;
-  before_y = e.clientY - rect.top;
-});
-// マウスをクリックしてない時
-canvas.addEventListener('mouseup', function() {
-  drawing = false;
-});
 //ボタンから色の情報ゲット
 var color = 'white';
 function color_set(cnum){
@@ -37,6 +24,18 @@ function color_set(cnum){
     var color = 'yellow';
   }
 }
+canvas.addEventListener('mousemove', draw_canvas);
+// マウスをクリックしてる時
+canvas.addEventListener('mousedown', function(e) {
+  drawing = true;
+  var rect = e.target.getBoundingClientRect();
+  before_x = e.clientX - rect.left;
+  before_y = e.clientY - rect.top;
+});
+// マウスをクリックしてない時
+canvas.addEventListener('mouseup', function() {
+  drawing = false;
+});
 // 描画の処理
 function draw_canvas(e) {
 // drawingがtrueじゃなかったら返す
