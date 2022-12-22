@@ -19,7 +19,7 @@ canvas.addEventListener('mouseup', function() {
   drawing = false;
 });
 //ボタンから色の情報ゲット
-var color = 'black';
+var color = 'white';
 function color_set(cnum){
   if (cnum == 0){
     color = 'black';
@@ -37,7 +37,6 @@ function color_set(cnum){
     color = 'yellow';
   }
 }
-
 // 描画の処理
 function draw_canvas(e) {
 // drawingがtrueじゃなかったら返す
