@@ -49,7 +49,7 @@ var w = document.getElementById('width').value;
 
 // 描画
 ctx.lineCap = 'round';
-ctx.strokeStyle = 'linecolor';
+ctx.strokeStyle = linecolor;
 ctx.lineWidth = 3;
 ctx.beginPath();
 ctx.moveTo(before_x, before_y);
