@@ -47,16 +47,16 @@ var x = e.clientX - rect.left;
 var y = e.clientY - rect.top;
 var w = document.getElementById('width').value;
 
-// 描画
-ctx.lineCap = 'round';
-ctx.strokeStyle = "white";
-ctx.lineWidth = 3;
-ctx.beginPath();
-ctx.moveTo(before_x, before_y);
-ctx.lineTo(x, y);
-ctx.stroke();
-ctx.closePath();
-// 描画最後の座標を前回の座標に代入する
+    ctx.lineWidth = 3;
+    ctx.strokeStyle = "white";
+    ctx.lineJoin = "round";
+    ctx.lineCap = "round";
+    ctx.globalCompositeOperation = 'source-over';
+    ctx.beginPath();
+    ctx.moveTo(before_x, before_y); // 開始座標（前回座標）
+    ctx.lineTo(x, y); // 終了座標（現在座標）
+    drawCtx.stroke(); // 直線を描画
+    drawCtx.closePath();
 before_x = x;
 before_y = y;
 }
