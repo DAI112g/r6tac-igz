@@ -930,15 +930,6 @@
     </div>
     <canvas id="canvas" width="1600" height="900"></canvas><br>
     <div class="palette">
-    <div class="card-body border rounded" id="color-picker-area">
-      <h5 class="card-title">色</h5>
-        <div class="rounded" style="background-color: whitesmoke;">
-          <md-color-picker id="colorPicker" color-margin="3" colors-per-row="5" color-size="25"
-            default-tint="500" fixedMinHeight="true" palette="black,white" use-spectrum-picker="false"
-            value="#000000">
-          </md-color-picker>
-        </div>
-    </div>
 	<font size=2px;>
   　  <input type="button" class="btn_color" id="color_white" style="background-color:white;color:white;" value="0" onclick="color_set(0)">
       <input type="button" class="btn_color" id="color_black" style="background-color:black;color:black;" value="1" onclick="color_set(1)">
@@ -957,26 +948,6 @@
   </div>
   <!-- お絵描きエリア　終わり -->
   <script type="text/javascript">
-    //ボタンから色の情報ゲット
-    var color = 'black';
-  function color_set(cnum){
-      if (cnum == 0){
-        color = 'black';
-      }
-      elseif (cnum == 1){
-        color = 'white';
-      }
-      elseif (cnum == 2){
-        color = 'red';
-      }
-      elseif (cnum == 3){
-        color = 'blue';
-      }
-      elseif (cnum == 4){
-        color = 'yellow';
-      }
-    }
-
     // アイコンの配置リセット
     var elements = document.getElementsByClassName("drag-and-drop");
     var array = [];
@@ -1007,7 +978,6 @@
       }
     }
   </script>
-  <script type="text/javascript" src="md-color-picker.js"></script>
   <script type="text/javascript" src="Drag.js"></script>
   <script type="text/javascript" src="canvas.js"></script>
 
