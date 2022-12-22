@@ -62,22 +62,29 @@ body {
   border-color:limegreen;
 }
 /* 攻撃側、防衛側エリアの基準位置 */
-.defense_slot {
-  border: 0.1rem solid white;
-  display: inline-block;
-  width: 730px;
-  height: 111px;
-  position: relative;
-  margin-left: 20px;
+.operator_slot{
+  background-color: gray;
+  margin: 0;
 }
 .attack_slot {
   border: 0.1rem solid white;
-  display: block;
   width: 730px;
   height: 111px;
+  background-color: blue;
   position: relative;
   margin-top: 20px;
   margin-left: 20px;
+  float: left;
+}
+.defense_slot {
+  border: 0.1rem solid white;
+  width: 730px;
+  height: 111px;
+  background-color: orange;
+  position: relative;
+  margin-top: 20px;
+  margin-left: 20px;
+  float: left;
 }
 /* アイコンすべてに適応 */
 .drag-and-drop {
