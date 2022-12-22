@@ -585,365 +585,138 @@
   <!-- 防衛側のエリア　終わり -->
   <!-- アイコン配置エリア　終わり -->
   <!-- お絵描きエリア -->
-  <div class="container">
-    <div class="tabs">
-      <input id="bank2f" type="radio" name="tab_item" checked="">
-      <label class="L1 tab_item" for="bank2f">은행 2F</label>
-      <input id="bank1f" type="radio" name="tab_item">
-      <label class="L2 tab_item" for="bank1f">은행 1F</label>
-      <input id="bankb1" type="radio" name="tab_item">
-      <label class="L3 tab_item" for="bankb1">은행 B1</label>
-      <input id="border2f" type="radio" name="tab_item">
-	  <label class="L4 tab_item" for="border2f">국경 2F</label>
-      <input id="border1f" type="radio" name="tab_item">
-      <label class="L5 tab_item" for="border1f">국경 1F</label>
-      <input id="cafe3f" type="radio" name="tab_item">
-      <label class="L6 tab_item" for="cafe3f">카페 3F</label>
-      <input id="cafe2f" type="radio" name="tab_item">
-      <label class="L7 tab_item" for="cafe2f">카페 2F</label>
-      <input id="cafe1f" type="radio" name="tab_item">
-      <label class="L8 tab_item" for="cafe1f">카페 1F</label>
-      <input id="chalet2f" type="radio" name="tab_item">
-      <label class="L9 tab_item" for="chalet2f">별장 2F</label>
-      <input id="chalet1f" type="radio" name="tab_item">
-      <label class="L10 tab_item" for="chalet1f">별장 1F</label>
-      <input id="chaletb1" type="radio" name="tab_item">
-      <label class="L11 tab_item" for="chaletb1">별장 B1</label>
-      <input id="club2f" type="radio" name="tab_item">
-      <label class="L12 tab_item" for="club2f">클럽하우스 2F</label>
-      <input id="club1f" type="radio" name="tab_item">
-      <label class="L13 tab_item" for="club1f">클럽하우스 1F</label>
-      <input id="clubb1" type="radio" name="tab_item">
-      <label class="L14 tab_item" for="clubb1">클럽하우스 B1</label>
-	  <input id="oregon3f" type="radio" name="tab_item">
-      <label class="L15 tab_item" for="oregon3f">오리건 3F</label>
-      <input id="oregon2f" type="radio" name="tab_item">
-	  <label class="L16 tab_item" for="oregon2f">오리건 2F</label>
-      <input id="oregon1f" type="radio" name="tab_item">
-      <label class="L17 tab_item" for="oregon1f">오리건 1F</label>
-      <input id="oregonb1" type="radio" name="tab_item">
-      <label class="L18 tab_item" for="oregonb1">오리건 B1</label>
-      <input id="skyscraper2f" type="radio" name="tab_item">
-	  <label class="L19 tab_item" for="skyscraper2f">마천루 2F</label>
-      <input id="skyscraper1f" type="radio" name="tab_item">
-      <label class="L20 tab_item" for="skyscraper1f">마천루 1F</label>
-      <input id="villa2f" type="radio" name="tab_item">
-	  <label class="L21 tab_item" for="villa2f">빌라 2F</label>
-      <input id="villa1f" type="radio" name="tab_item">
-      <label class="L22 tab_item" for="villa1f">빌라 1F</label>
-      <input id="villab1" type="radio" name="tab_item">
-      <label class="L23 tab_item" for="villab1">빌라 B1</label>
-      <input id="themepark2f" type="radio" name="tab_item">
-	  <label class="L24 tab_item" for="themepark2f">테마파크 2F</label>
-      <input id="themepark1f" type="radio" name="tab_item">
-      <label class="L25 tab_item" for="themepark1f">테마파크 1F</label>
-      <input id="bartlett2f" type="radio" name="tab_item">
-      <label class="R1 tab_item" for="bartlett2f">바틀렛대학교 2F</label>
-      <input id="bartlett1f" type="radio" name="tab_item">
-      <label class="R2 tab_item" for="bartlett1f">바틀렛대학교 1F</label>
-      <input id="coastline2f" type="radio" name="tab_item">
-      <label class="R3 tab_item" for="coastline2f">해안선 2F</label>
-      <input id="coastline1f" type="radio" name="tab_item">
-      <label class="R4 tab_item" for="coastline1f">해안선 1F</label>
-      <input id="consulate2f" type="radio" name="tab_item">
-      <label class="R5 tab_item" for="consulate2f">영사관 2F</label>
-      <input id="consulate1f" type="radio" name="tab_item">
-      <label class="R6 tab_item" for="consulate1f">영사관 1F</label>
-      <input id="consulateb1" type="radio" name="tab_item">
-      <label class="R7 tab_item" for="consulateb1">영사관 B1</label>
-      <input id="favela3f" type="radio" name="tab_item">
-      <label class="R8 tab_item" for="favela3f">빈민가 3F</label>
-      <input id="favela2f" type="radio" name="tab_item">
-      <label class="R9 tab_item" for="favela2f">빈민가 2F</label>
-      <input id="favela1f" type="radio" name="tab_item">
-      <label class="R10 tab_item" for="favela1f">빈민가 1F</label>
-      <input id="fortress2f" type="radio" name="tab_item">
-      <label class="R11 tab_item" for="fortress2f">요새 2F</label>
-      <input id="fortress1f" type="radio" name="tab_item">
-      <label class="R12 tab_item" for="fortress1f">요새 1F</label>
-      <input id="hereford3f" type="radio" name="tab_item">
-      <label class="R13 tab_item" for="hereford3f">해리퍼드 기지 3F</label>
-      <input id="hereford2f" type="radio" name="tab_item">
-      <label class="R14 tab_item" for="hereford2f">해리퍼드 기지 2F</label>
-      <input id="hereford1f" type="radio" name="tab_item">
-      <label class="R15 tab_item" for="hereford1f">해리퍼드 기지 1F</label>
-      <input id="herefordb1" type="radio" name="tab_item">
-      <label class="R16 tab_item" for="herefordb1">해리퍼드 기지 B1</label>
-      <input id="house2f" type="radio" name="tab_item">
-      <label class="R17 tab_item" for="house2f">저택 2F</label>
-      <input id="house1f" type="radio" name="tab_item">
-      <label class="R18 tab_item" for="house1f">저택 1F</label>
-      <input id="houseb1" type="radio" name="tab_item">
-      <label class="R19 tab_item" for="houseb1">저택 B1</label>
-      <input id="kanal2f" type="radio" name="tab_item">
-      <label class="R20 tab_item" for="kanal2f">운하 2F</label>
-      <input id="kanal1f" type="radio" name="tab_item">
-      <label class="R21 tab_item" for="kanal1f">운하 1F</label>
-      <input id="kanalb1" type="radio" name="tab_item">
-      <label class="R22 tab_item" for="kanalb1">운하 B1</label>
-      <input id="kanalb2" type="radio" name="tab_item">
-      <label class="R23 tab_item" for="kanalb2">운하 B2</label>
-      <input id="outback2fa" type="radio" name="tab_item">
-      <label class="R24 tab_item" for="outback2fa">오지 2F A</label>
-      <input id="outback2fb" type="radio" name="tab_item">
-      <label class="R25 tab_item" for="outback2fb">오지 2F B</label>
-      <input id="outback1fa" type="radio" name="tab_item">
-      <label class="R26 tab_item" for="outback1fa">오지 1F A</label>
-      <input id="outback1fb" type="radio" name="tab_item">
-      <label class="R27 tab_item" for="outback1fb">오지 1F B</label>
-      <input id="plane3fa" type="radio" name="tab_item">
-      <label class="R28 tab_item" for="plane3fa">대통령 전용기 3F A</label>
-      <input id="plane3fb" type="radio" name="tab_item">
-      <label class="R29 tab_item" for="plane3fb">대통령 전용기 3F B</label>
-      <input id="plane2fa" type="radio" name="tab_item">
-      <label class="R30 tab_item" for="plane2fa">대통령 전용기 2F A</label>
-      <input id="plane2fb" type="radio" name="tab_item">
-      <label class="R31 tab_item" for="plane2fb">대통령 전용기 2F B</label>
-      <input id="plane1fa" type="radio" name="tab_item">
-      <label class="R32 tab_item" for="plane1fa">대통령 전용기 1F A</label>
-      <input id="plane1fb" type="radio" name="tab_item">
-      <label class="R33 tab_item" for="plane1fb">대통령 전용기 1F B</label>
-      <input id="tower2fa" type="radio" name="tab_item">
-      <label class="R34 tab_item" for="tower2fa">타워 2F A</label>
-      <input id="tower2fb" type="radio" name="tab_item">
-      <label class="R35 tab_item" for="tower2fb">타워 2F B</label>
-      <input id="tower1fa" type="radio" name="tab_item">
-      <label class="R36 tab_item" for="tower1fa">타워 1F A</label>
-      <input id="tower1fb" type="radio" name="tab_item">
-      <label class="R37 tab_item" for="tower1fb">타워 1F B</label>
-      <input id="yacht4f" type="radio" name="tab_item">
-      <label class="R38 tab_item" for="yacht4f">요트 4F</label>
-      <input id="yacht3f" type="radio" name="tab_item">
-      <label class="R39 tab_item" for="yacht3f">요트 3F</label>
-      <input id="yacht2fa" type="radio" name="tab_item">
-      <label class="R40 tab_item" for="yacht2fa">요트 2F A</label>
-      <input id="yacht2fb" type="radio" name="tab_item">
-      <label class="R41 tab_item" for="yacht2fb">요트 2F B</label>
-      <input id="yacht1fa" type="radio" name="tab_item">
-      <label class="R42 tab_item" for="yacht1fa">요트 1F A</label>
-      <input id="yacht1fb" type="radio" name="tab_item">
-      <label class="R43 tab_item" for="yacht1fb">요트 1F B</label>
-      <div class="tab_content" id="bank2f">
-        <img src="bank2f.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="bank1f">
-        <img src="bank1f.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="bankb1">
-        <img src="bankb1.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="border2f">
-        <img src="border2f.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="border1f">
-        <img src="border1f.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="cafe3f">
-        <img src="cafe3f.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="cafe2f">
-        <img src="cafe2f.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="cafe1f">
-        <img src="cafe1f.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="club2f">
-        <img src="club2f.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="club1f">
-        <img src="club1f.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="clubb1">
-        <img src="clubb1.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="coastline2f">
-        <img src="coastline2f.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="coastline1f">
-        <img src="coastline1f.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="consulate2f">
-        <img src="consulate2f.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="consulate1f">
-        <img src="consulate1f.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="consulateb1">
-        <img src="consulateb1.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="villa2f">
-        <img src="villa2f.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="villa1f">
-        <img src="villa1f.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="villab1">
-        <img src="villab1.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="outback2fa">
-        <img src="outback2fa.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="outback2fb">
-        <img src="outback2fb.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="outback1fa">
-        <img src="outback1fa.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="outback1fb">
-        <img src="outback1fb.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="fortress2f">
-        <img src="fortress2f.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="fortress1f">
-        <img src="fortress1f.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="tower2fa">
-        <img src="tower2fa.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="tower2fb">
-        <img src="tower2fb.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="tower1fa">
-        <img src="tower1fa.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="tower1fb">
-        <img src="tower1fb.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="bartlett2f">
-        <img src="bartlett2f.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="bartlett1f">
-        <img src="bartlett1f.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="favela3f">
-        <img src="favela3f.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="favela2f">
-        <img src="favela2f.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="favela1f">
-        <img src="favela1f.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="yacht4f">
-        <img src="yacht4f.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="yacht3f">
-        <img src="yacht3f.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="yacht2fa">
-        <img src="yacht2fa.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="yacht2fb">
-        <img src="yacht2fb.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="yacht1fa">
-        <img src="yacht1fa.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="yacht1fb">
-        <img src="yacht1fb.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="plane3fa">
-        <img src="plane3fa.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="plane3fb">
-        <img src="plane3fb.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="plane2fa">
-        <img src="plane2fa.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="plane2fb">
-        <img src="plane2fb.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="plane1fa">
-        <img src="plane1fa.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="plane1fb">
-        <img src="plane1fb.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="skyscraper2f">
-        <img src="skyscraper2f.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="skyscraper1f">
-        <img src="skyscraper1f.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="oregon3f">
-        <img src="oregon3f.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="oregon2f">
-        <img src="oregon2f.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="oregon1f">
-        <img src="oregon1f.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="oregonb1">
-        <img src="oregonb1.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="chalet2f">
-        <img src="chalet2f.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="chalet1f">
-        <img src="chalet1f.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="chaletb1">
-        <img src="chaletb1.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="hereford3f">
-        <img src="hereford3f.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="hereford2f">
-        <img src="hereford2f.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="hereford1f">
-        <img src="hereford1f.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="herefordb1">
-        <img src="herefordb1.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="kanal2f">
-        <img src="kanal2f.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="kanal1f">
-        <img src="kanal1f.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="kanalb1">
-        <img src="kanalb1.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="kanalb2">
-        <img src="kanalb2.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="themepark2f">
-        <img src="themepark2f.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="themepark1f">
-        <img src="themepark1f.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="house2f">
-        <img src="house2f.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="house1f">
-        <img src="house1f.jpg" alt="" class="map">
-      </div>
-      <div class="tab_content" id="houseb1">
-        <img src="houseb1.jpg" alt="" class="map">
-      </div>
-    </div>
-    <canvas id="canvas" width="1600" height="900"></canvas><br>
-    <div class="palette">
-	<font size=2px;>
+  <html>
+
+  <head>
+      <meta charset="utf-8">
+      <title>Canvas Paint Tool</title>
+      <style type="text/css"></style>
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-8">
+                  <div class="card-header border rounded">
+                      <div class="row">
+                          <div class="col-6">
+                              <input type="file" id="uploadFile">
+                          </div>
+                          <div class="col-6 text-right">
+                              x：<span id="dispX">0</span>　y：<span id="dispY">0</span>　拡大率：<span id="dispScale">1</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="card-body border rounded" style="background-color: silver; padding: 0rem">
+
+                      <div id="canvas-area" width="100%" style="height: 80vh; position: relative; overflow: hidden;"
+                          class="canvas-wrapper text-center">
+                          <label id="explanation">左上ボタンから画像ファイルを選択してください。</label>
+
+                          <!-- 画像Canvas -->
+                          <canvas id="imageCanvas"
+                              style="top: 0px; right: 0;bottom: 0; left: 0; margin: auto; position: absolute;"></canvas>
+                          <!-- 描画Canvas -->
+                          <canvas id="drawCanvas"
+                              style="top: 0px; right: 0;bottom: 0; left: 0; margin: auto; position: absolute;"></canvas>
+                          <!-- 一時的描画Canvas(直線、短径、円用) -->
+                          <canvas id="drawTempCanvas"
+                              style="top: 0px; right: 0;bottom: 0; left: 0; margin: auto; position: absolute;"></canvas>
+                          <!-- ポインタCanvas -->
+                          <canvas id="pointerCanvas"
+                              style="top: 0px; right: 0;bottom: 0; left: 0; margin: auto; position: absolute;"></canvas>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-4">
+                  <div class="card-body border rounded">
+                      <div class="row">
+                          <div class="col-6">
+                              <h5 class="card-title">モード</h5>
+                              <div class="form-check">
+                                  <label class="form-check-label">
+                                      <input class="form-check-input" type="radio" name="mode" value="1" checked>
+                                      描く
+                                  </label>
+                              </div>
+                              <div class="form-check">
+                                  <label class="form-check-label">
+                                      <input class="form-check-input" type="radio" name="mode" value="2">
+                                      消しゴム
+                                  </label>
+                              </div>
+                              <div class="form-check">
+                                  <label class="form-check-label">
+                                      <input class="form-check-input" type="radio" name="mode" value="3">
+                                      画像移動
+                                  </label>
+                              </div>
+                              <br>
+                          </div>
+                          <div class="col-6" id="input-type-area">
+                              <h5 class="card-title">描き込みタイプ</h5>
+                              <div class="form-check">
+                                  <label class="form-check-label">
+                                      <input class="form-check-input" type="radio" name="input-type" value="1" checked>
+                                      ペン
+                                  </label>
+                              </div>
+                              <div class="form-check">
+                                  <label class="form-check-label">
+                                      <input class="form-check-input" type="radio" name="input-type" value="2">
+                                      直線
+                                  </label>
+                              </div>
+                              <div class="form-check">
+                                  <label class="form-check-label">
+                                      <input class="form-check-input" type="radio" name="input-type" value="3">
+                                      短径
+                                  </label>
+                              </div>
+                              <div class="form-check">
+                                  <label class="form-check-label">
+                                      <input class="form-check-input" type="radio" name="input-type" value="4">
+                                      円
+                                  </label>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="card-body border rounded" id="range-area">
+                      <div class="row">
+                          <div class="col" id="size-area">
+                              <h5 class="card-title">太さ</h5>
+                              <input id="slider" type="range" min="1" max="100" value="10"
+                                  onChange="sizeChange(this.value)">
+                              <span id="size">10</span>
+                          </div>
+                          <div class="col" id="transparent-area">
+                              <h5 class="card-title">透過度</h5>
+                              <input id="slider" type="range" min="0.1" max="1" value="1" step="0.1"
+                                  onChange="alphaChange(this.value)">
+                              <span id="transparent">1</span>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="card-body border rounded" id="color-picker-area">
+                      <h5 class="card-title">色</h5>
+                      <div class="rounded" style="background-color: whitesmoke;">
+                          <md-color-picker id="colorPicker" color-margin="4" colors-per-row="7" color-size="25"
+                              default-tint="500" fixedMinHeight="true" palette="material-full" use-spectrum-picker="false"
+                              value="#000000">
+                          </md-color-picker>
+                      </div>
+                  </div>
+
+              </div>
+          </div>
+      </div>
+
       <input type="button" class="btn_color" id="color_white" style="background-color:white;color:white;" value="0" onclick="color_set(0)">
       <input type="button" class="btn_color" id="color_black" style="background-color:black;color:black;" value="1" onclick="color_set(1)">
       <input type="button" class="btn_color" id="color_red" style="background-color:red;color:red;" value="2" onclick="color_set(2)">
       <input type="button" class="btn_color" id="color_blue" style="background-color:blue;color:blue;" value="3" onclick="color_set(3)">
       <input type="button" class="btn_color" id="color_yellow" style="background-color:yellow;color:yellow;" value="4" onclick="color_set(4)">
-      <input type="button" class="btn" id="reset_icon" value="아이콘 지우기" onclick="reset_icon()">
-      <input type="button" class="btn" id="delete_canvas" value="낙서 지우기" onclick="delete_canvas()">
-      <input type="button" class="btn" id="all_reset" value="전부 지우기" onclick="all_reset()">
-      <input type="image" id="pencil" src="1.jpg" width="35px" class="active" onclick="tool(1)">
-      <input type="image" id="eraser" src="2.jpg" width="35px" onclick="tool(2)">
-	</font>
-    </div>
-  </div>
+
   <!-- お絵描きエリア　終わり -->
   <script type="text/javascript">
     // アイコンの配置リセット
