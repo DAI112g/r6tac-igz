@@ -111,6 +111,24 @@ body {
   height: 30px;
 }
 /* 攻撃側ガジェット位置決め */
+.drone{
+  background-color: black;
+  position: relative;
+  margin-top: 10px;
+  margin-left: 20px;
+  border: 0.1rem solid white;
+  width: 200px;
+  height: 100px;
+  float: left;
+}
+.drone span {
+  display: block;
+  color: white;
+  font-size: 12px;
+}
+.drone img {
+  display: block;
+}
 .attack_gadget{
   background-color: black;
   position: absolute;
