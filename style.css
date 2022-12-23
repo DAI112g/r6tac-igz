@@ -112,14 +112,21 @@ body {
 }
 /* 攻撃側ガジェット位置決め */
 .attack_gadget{
+  background-color: black;
   position: absolute;
   margin-top: 200px;
   margin-left: 20px;
   border: 0.1rem solid white;
-  width: 730px;
-  height: 111px;
+  width: 1500px;
+  height: 100px;
 }
 .attack_gadget span {
+  display: inline-block;
+  margin: 10px 5px;
+  color: white;
+  font-size: 12px;
+}
+.attack_gadget img {
   display: inline-block;
   margin: 10px 5px;
   color: white;
