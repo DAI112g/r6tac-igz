@@ -113,8 +113,8 @@ body {
 /* 攻撃側ガジェット位置決め */
 .drone{
   background-color: black;
-  position: relative;
-  margin-top: 10px;
+  position: absolute;
+  margin-top: 140px;
   margin-left: 20px;
   border: 0.1rem solid white;
   width: 200px;
@@ -132,7 +132,7 @@ body {
 .attack_gadget{
   background-color: black;
   position: absolute;
-  margin-top: 140px;
+  margin-top: 300px;
   margin-left: 20px;
   border: 0.1rem solid white;
   width: 1500px;
