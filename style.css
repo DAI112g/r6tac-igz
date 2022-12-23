@@ -123,15 +123,11 @@ body {
 .attack_gadget span {
   text-align: center;
   display: block;
-  margin-top: 10px;
-  margin-left: 20px;
   color: white;
   font-size: 12px;
 }
 .attack_gadget img {
   display: block;
-  margin-top: 20px;
-  margin-left: 20px;
 }
 /* 防衛側ガジェット位置決め */
 .reinforcement_slot {
