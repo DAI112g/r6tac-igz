@@ -114,23 +114,24 @@ body {
 .attack_gadget{
   background-color: black;
   position: absolute;
-  margin-top: 200px;
+  margin-top: 10px;
   margin-left: 20px;
   border: 0.1rem solid white;
   width: 1500px;
   height: 100px;
 }
 .attack_gadget span {
+  text-align: center;
   display: inline-block;
-  margin: 10px 5px;
+  margin-top: 10px;
+  margin-left: 20px;
   color: white;
   font-size: 12px;
 }
 .attack_gadget img {
   display: inline-block;
-  margin: 10px 5px;
-  color: white;
-  font-size: 12px;
+  margin-top: 20px;
+  margin-left: 20px;e;
 }
 /* 防衛側ガジェット位置決め */
 .reinforcement_slot {
