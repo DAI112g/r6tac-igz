@@ -96,7 +96,7 @@ body {
   width: 730px;
   height: 110px;
   background-color: orange;
-  position: relative;
+  position: absolute;
   margin-top: 20px;
   margin-left: 20px;
   float: left;
@@ -129,9 +129,9 @@ body {
   font-size: 12px;
 }
 .attack_gadget img {
-  display: inline-block;
+  display: block;
   margin-top: 20px;
-  margin-left: 20px;e;
+  margin-left: 20px;
 }
 /* 防衛側ガジェット位置決め */
 .reinforcement_slot {
