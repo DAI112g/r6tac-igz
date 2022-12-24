@@ -86,7 +86,7 @@ body {
   width: 730px;
   height: 110px;
   background-color: blue;
-  position: absolute;
+  position: relative;
   margin-top: 20px;
   margin-left: 20px;
   float: left;
@@ -119,7 +119,7 @@ body {
   left: 20px;
   border: 0.1rem solid white;
   width: 60px;
-  height: 70px;
+  height: 60px;
   float: left;
 }
 .drone span {
