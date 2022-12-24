@@ -122,7 +122,7 @@ body {
   height: 90px;
   float: left;
 }
-.drone_slot span {
+.drone span {
   display: inline-block;
   margin: 10px 5px;
   color: white;
@@ -130,8 +130,6 @@ body {
 }
 .drone img {
   display: block;
-  width: 20px;
-  height: 20px;
   position: relative;
   margin-top: 10px;
 }
