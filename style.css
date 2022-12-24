@@ -99,7 +99,6 @@ body {
   position: relative;
   margin-top: 20px;
   margin-left: 20px;
-  float: left;
 }
 /*ガジェット系のCSS*/
 .gadget {
@@ -114,8 +113,6 @@ body {
 .drone{
   background-color: black;
   position: absolute;
-  margin-top: 140px;
-  margin-left: 20px;
   border: 0.1rem solid white;
   width: 200px;
   height: 100px;
@@ -125,11 +122,15 @@ body {
   display: block;
   color: white;
   font-size: 12px;
+  margin-top: 140px;
+  margin-left: 20px;
 }
 .drone img {
   display: block;
   width: 20px;
   height: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
 }
 .attack_gadget{
   background-color: black;
