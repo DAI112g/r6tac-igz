@@ -130,8 +130,9 @@ body {
 }
 .drone img {
   display: block;
-  position: relative;
-  margin-top: 10px;
+  position: absolute;
+  top: 160px;
+  left: 25px;
 }
 /* 防衛側ガジェット位置決め */
 .reinforcement_slot {
