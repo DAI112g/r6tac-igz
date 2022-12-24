@@ -101,6 +101,11 @@ body {
   margin-left: 20px;
   float: left;
 }
+.waku{
+  border: 0.1rem solid white;
+  width: 1280px;
+  height: 720px;
+}
 /*ガジェット系のCSS*/
 .gadget {
   width: 20px;
