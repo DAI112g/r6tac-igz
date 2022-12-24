@@ -86,7 +86,7 @@ body {
   width: 730px;
   height: 110px;
   background-color: blue;
-  position: relative;
+  position: absolute;
   margin-top: 20px;
   margin-left: 20px;
   float: left;
@@ -99,6 +99,7 @@ body {
   position: relative;
   margin-top: 20px;
   margin-left: 20px;
+  float: left;
 }
 /*ガジェット系のCSS*/
 .gadget {
@@ -114,7 +115,7 @@ body {
   background-color: black;
   position: absolute;
   border: 0.1rem solid white;
-  width: 200px;
+  width: 100px;
   height: 100px;
   float: left;
 }
@@ -122,8 +123,6 @@ body {
   display: block;
   color: white;
   font-size: 12px;
-  margin-top: 140px;
-  margin-left: 20px;
 }
 .drone img {
   display: block;
