@@ -131,7 +131,7 @@ body {
 .drone img {
   display: block;
   position: absolute;
-  left: 25px;
+  left: 20px;
 }
 /* 防衛側ガジェット位置決め */
 .reinforcement_slot {
