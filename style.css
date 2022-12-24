@@ -112,15 +112,19 @@ body {
 }
 /* 攻撃側ガジェット位置決め */
 .drone{
+  text-align: center;
   background-color: black;
   position: absolute;
+  top: 140px;
+  left: 20px;
   border: 0.1rem solid white;
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 90px;
   float: left;
 }
 .drone span {
-  display: block;
+  display: inline-block;
+  margin: 10px 5px;
   color: white;
   font-size: 12px;
 }
@@ -128,25 +132,8 @@ body {
   display: block;
   width: 20px;
   height: 20px;
+  position: relative;
   margin-top: 10px;
-  margin-left: 20px;
-}
-.attack_gadget{
-  background-color: black;
-  position: absolute;
-  margin-top: 300px;
-  margin-left: 20px;
-  border: 0.1rem solid white;
-  width: 1500px;
-  height: 100px;
-}
-.attack_gadget span {
-  display: block;
-  color: white;
-  font-size: 12px;
-}
-.attack_gadget img {
-  display: block;
 }
 /* 防衛側ガジェット位置決め */
 .reinforcement_slot {
