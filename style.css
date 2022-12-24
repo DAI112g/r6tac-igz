@@ -1032,19 +1032,19 @@ label {
 /* 攻撃側オペレーターアイコン位置決め */
 #sledge {
   top: 0px;
-  left: 10px;
+  left: 0px;
 }
 #thatcher {
   top: 0px;
-  left: 55px;
+  left: 25px;
 }
 #ash {
   top: 0px;
-  left: 100px;
+  left: 50px;
 }
 #thermite {
   top: 0px;
-  left: 145px;
+  left: 75px;
 }
 #twitch {
   top: 0px;
