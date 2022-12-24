@@ -83,8 +83,8 @@ body {
 }
 .attack_slot {
   border: 0.1rem solid white;
-  width: 730px;
-  height: 110px;
+  width: 820px;
+  height: 50px;
   background-color: blue;
   position: relative;
   margin-top: 20px;
@@ -1056,117 +1056,117 @@ label {
 }
 #twitch {
   top: 0px;
-  left: 190px;
+  left: 100px;
 }
 #montagne {
   top: 0px;
-  left: 235px;
+  left: 125px;
 }
 #glaz {
   top: 0px;
-  left: 280px;
+  left: 150px;
 }
 #fuze {
   top: 0px;
-  left: 325px;
+  left: 175px;
 }
 #blitz {
   top: 0px;
-  left: 370px;
+  left: 200px;
 }
 #iq {
   top: 0x;
-  left: 415px;
+  left: 225px;
 }
 #buck {
   top: 0px;
-  left: 460px;
+  left: 250px;
 }
 #blackbeard {
   top: 0px;
-  left: 505px;
+  left: 275px;
 }
 #capitao {
   top: 0px;
-  left: 550px;
+  left: 300px;
 }
 #hibana {
   top: 0px;
-  left: 595px;
+  left: 325px;
 }
 #jackal {
   top: 0px;
-  left: 640px;
+  left: 350px;
 }
 #ying {
   top: 0px;
-  left: 685px;
+  left: 375px;
 }
 #zofia {
-  top: 39px;
-  left: 10px;
+  top: 0px;
+  left: 400px;
 }
 #dokkaebi {
-  top: 39px;
-  left: 55px;
+  top: 0px;
+  left: 425px;
 }
 #lion {
-  top: 39px;
-  left: 100px;
+  top: 0px;
+  left: 450px;
 }
 #finka {
-  top: 39px;
-  left: 145px;
+  top: 0px;
+  left: 475px;
 }
 #marverick {
-  top: 39px;
-  left: 190px;
+  top: 0px;
+  left: 500px;
 }
 #nomad {
-  top: 39px;
-  left: 235px;
+  top: 0px;
+  left: 525px;
 }
 #gridlock {
-  top: 39px;
-  left: 280px;
-}
-#nokk {
-  top: 39px;
-  left: 325px;
-}
-#amaru {
-  top: 39px;
-  left: 370px;
-}
-#kali {
-  top: 39px;
-  left: 415px;
-}
-#iana {
-  top: 39px;
-  left: 460px;
-}
-#ace {
-  top: 39px;
-  left: 505px;
-}
-#zero {
-  top: 39px;
+  top: 0px;
   left: 550px;
 }
+#nokk {
+  top: 0px;
+  left: 575px;
+}
+#amaru {
+  top: 0px;
+  left: 600px;
+}
+#kali {
+  top: 0px;
+  left: 625px;
+}
+#iana {
+  top: 0px;
+  left: 650px;
+}
+#ace {
+  top: 0px;
+  left: 675px;
+}
+#zero {
+  top: 0px;
+  left: 700px;
+}
 #flores {
-  top: 39px;
-  left: 595px;
+  top: 0px;
+  left: 725px;
 }
 #osa {
-  top: 39px;
-  left: 640px;
+  top: 0px;
+  left: 750px;
 }
 #sens {
-  top: 39px;
-  left: 685px;
+  top: 0px;
+  left: 775px;
 }
 #grim {
-  top: 78px;
-  left: 10px;
+  top: 0px;
+  left: 800px;
 }
