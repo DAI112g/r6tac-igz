@@ -84,22 +84,20 @@ body {
 .attack_slot {
   border: 0.1rem solid white;
   width: 820px;
-  height: 50px;
+  height: 20px;
   background-color: blue;
   position: relative;
   margin-top: 20px;
   margin-left: 20px;
-  float: left;
 }
 .defense_slot {
   border: 0.1rem solid white;
-  width: 730px;
-  height: 110px;
+  width: 820px;
+  height: 20px;
   background-color: orange;
   position: relative;
   margin-top: 20px;
   margin-left: 20px;
-  float: left;
 }
 .waku {
   position: absolute;
