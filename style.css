@@ -905,135 +905,135 @@ label {
 /* 防衛側オペレーターアイコンの位置決め */
 #smoke {
   top: 0px;
-  left: 10px;
+  left: 0px;
 }
 #mute {
   top: 0px;
-  left: 55px;
+  left: 25px;
 }
 #castle {
   top: 0px;
-  left: 100px;
+  left: 50px;
 }
 #pulse {
   top: 0px;
-  left: 145px;
+  left: 75px;
 }
 #doc {
   top: 0px;
-  left: 190px;
+  left: 100px;
 }
 #rook {
   top: 0px;
-  left: 235px;
+  left: 125px;
 }
 #kapkan {
   top: 0px;
-  left: 280px;
+  left: 150px;
 }
 #tachanka {
   top: 0px;
-  left: 325px;
+  left: 175px;
 }
 #jager {
   top: 0px;
-  left: 370px;
+  left: 200px;
 }
 #bandit {
   top: 0px;
-  left: 415px;
+  left: 225px;
 }
 #frost {
   top: 0px;
-  left: 460px;
+  left: 250px;
 }
 #valkyrie {
   top: 0px;
-  left: 505px;
+  left: 275px;
 }
 #caveira {
   top: 0px;
-  left: 550px;
+  left: 300px;
 }
 #echo {
   top: 0px;
-  left: 595px;
+  left: 325px;
 }
 #mira {
   top: 0px;
-  left: 640px;
+  left: 350px;
 }
 #lesion {
   top: 0px;
-  left: 685px;
+  left: 375px;
 }
 #ela {
-  top: 39px;
-  left: 10px;
+  top: 0px;
+  left: 400px;
 }
 #vigil {
-  top: 40px;
-  left: 55px;
+  top: 0px;
+  left: 425px;
 }
 #maestro {
-  top: 39px;
-  left: 100px;
+  top: 0px;
+  left: 450px;
 }
 #alibi {
-  top: 39px;
-  left: 145px;
+  top: 0px;
+  left: 475px;
 }
 #clash {
-  top: 39px;
-  left: 190px;
+  top: 0px;
+  left: 500px;
 }
 #kaid {
-  top: 39px;
-  left: 235px;
+  top: 0px;
+  left: 525px;
 }
 #mozzie {
-  top: 39px;
-  left: 280px;
-}
-#warden {
-  top: 39px;
-  left: 325px;
-}
-#goyo {
-  top: 39px;
-  left: 370px;
-}
-#wamai {
-  top: 39px;
-  left: 415px;
-}
-#oryx {
-  top: 39px;
-  left: 460px;
-}
-#melusi {
-  top: 39px;
-  left: 505px;
-}
-#aruni {
-  top: 39px;
+  top: 0px;
   left: 550px;
 }
+#warden {
+  top: 0px;
+  left: 575px;
+}
+#goyo {
+  top: 0px;
+  left: 600px;
+}
+#wamai {
+  top: 0px;
+  left: 625px;
+}
+#oryx {
+  top: 0px;
+  left: 650px;
+}
+#melusi {
+  top: 0px;
+  left: 675px;
+}
+#aruni {
+  top: 0px;
+  left: 700px;
+}
 #thunderbird {
-  top: 39px;
-  left: 595px;
+  top: 0px;
+  left: 725px;
 }
 #thorn {
-  top: 39px;
-  left: 640px;
+  top: 0px;
+  left: 750px;
 }
 #azami {
-  top: 39px;
-  left: 685px;
+  top: 0px;
+  left: 775px;
 }
 #solis {
-  top: 78px;
-  left: 10px;
+  top: 0px;
+  left: 800px;
 }
 /* 攻撃側オペレーターアイコン位置決め */
 #sledge {
