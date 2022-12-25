@@ -84,7 +84,7 @@ body {
 .attack_slot {
   border: 0.1rem solid white;
   width: 820px;
-  height: 22px;
+  height: 23px;
   background-color: blue;
   position: relative;
   margin-top: 20px;
@@ -93,7 +93,7 @@ body {
 .defense_slot {
   border: 0.1rem solid white;
   width: 820px;
-  height: 22px;
+  height: 23px;
   background-color: orange;
   position: relative;
   margin-top: 20px;
