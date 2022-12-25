@@ -15,9 +15,10 @@ body {
 }
 /*選手スロット*/
 .number_slot{
+  float: left;
   position: absolute;
-  margin-top: 200px;
-  margin-left: 1565px;
+  margin-top: 20px;
+  margin-left: 20px;
   border: 0.1rem solid white;
   height: 95px;
   width: 245px;
@@ -89,14 +90,15 @@ body {
   position: relative;
   margin-top: 20px;
   margin-left: 20px;
+  float: left;
 }
 .defense_slot {
   border: 0.1rem solid white;
   width: 820px;
   height: 23px;
   background-color: orange;
-  position: relative;
-  margin-top: 20px;
+  position: absolute;
+  margin-top: 63px;
   margin-left: 20px;
 }
 .waku {
