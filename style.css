@@ -95,7 +95,7 @@ body {
 .attack_slot img {
   margin-top: 0px;
   margin-right: : 28px;
-  display: inline-block;
+  display: block;
 }
 .defense_slot {
   border: 0.1rem solid white;
