@@ -92,6 +92,10 @@ body {
   margin-left: 20px;
   float: left;
 }
+.attack_slot img {
+  top: 0px;
+  left: 28px;
+}
 .defense_slot {
   border: 0.1rem solid white;
   width: 1280px;
@@ -1065,7 +1069,7 @@ label {
   left: 800px;
 }
 /* 攻撃側オペレーターアイコン位置決め */
-#sledge {
+/*#sledge {
   top: 0px;
   left: 0px;
 }
@@ -1197,3 +1201,4 @@ label {
   top: 0px;
   left: 800px;
 }
+*/
