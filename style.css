@@ -93,8 +93,8 @@ body {
   float: left;
 }
 .attack_slot img {
-  top: 0px;
-  left: 28px;
+  margin-top: 0px;
+  margin-right: : 28px;
 }
 .defense_slot {
   border: 0.1rem solid white;
