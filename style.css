@@ -27,7 +27,7 @@ body {
 /*スロットタイトル*/
 .member_slot_title{
   color: white;
-  display: block;
+  display: inline;
   position: absolute;
   top: 10px;
 }
