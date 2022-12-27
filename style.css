@@ -34,7 +34,7 @@ body {
 /*番号の並び*/
 .member {
   font-size: 15px;
-  padding: 5px 5px;
+  padding: 0px 0px 0px 5px;
   height: 25px;
   width: 25px;
   border-radius: 50%;
