@@ -14,26 +14,26 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.7);
 }
 /*選手スロット*/
-.number_slot{
+.member_slot{
   float: left;
   position: absolute;
   text-align: center;
   margin-top: 20px;
-  margin-left: 20px;
+  margin-left: 1300px;
   border: 0.1rem solid white;
-  height: 95px;
-  width: 245px;
+  height: 70px;
+  width: 200px;
 }
 /*スロットタイトル*/
-.number_slot_title{
+.member_slot_title{
   color: white;
   display: inline-block;
   position: absolute;
   top: 10px;
 }
 /*番号の並び*/
-.numbers {
-  font-size: 20px;
+.member {
+  font-size: 15px;
   height: 25px;
   width: 25px;
   border-radius: 50%;
@@ -42,35 +42,35 @@ body {
   border: 2px solid white;
   z-index:5;
 }
-.No_1{
+.Maavi{
   position: absolute;
   top: 40px;
   left: 10px;
   color: red;
   border-color: red;
 }
-.No_2{
+.Reira{
   position: absolute;
   top: 40px;
   left: 50px;
   color: cyan;
   border-color: cyan;
 }
-.No_3{
+.SIFTY{
   position: absolute;
   top: 40px;
   left: 90px;
   color:yellow;
   border-color: yellow;
 }
-.No_4{
+.solty{
   position: absolute;
   top: 40px;
   left: 130px;
   color: fuchsia;
   border-color:fuchsia;
 }
-.No_5{
+.Vbort{
   position: absolute;
   top: 40px;
   left: 170px;
