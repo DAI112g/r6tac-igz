@@ -37,6 +37,7 @@ body {
   height: 25px;
   width: 25px;
   border-radius: 50%;
+  line-height: 25px;
   background-color:black;
   border: 2px solid white;
   z-index:5;
